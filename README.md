@@ -11,9 +11,9 @@
 
 ### 3. 如何刪除 Github 上的子目錄或文件<br/>
 - 在 Github 上，進入要刪除子目錄或文件的頁面<br/>
-- 選擇頁面右上方的 [．．．] 鍵<br/>
+- 選擇頁面右上方的 [...] 鍵，選擇 Delete directory<br/>
 <img src="https://user-images.githubusercontent.com/104376299/211460367-eb086fc7-188a-40d4-a6f0-d9f746c046ec.png" width="500px" /><br/>
-- 拉到最下面，選擇[Commit changes] 鍵<br/>
+- 拉到最下面，選擇 [Commit changes] 鍵<br/>
 <img src="https://user-images.githubusercontent.com/104376299/211460368-3525caad-bba5-4454-bfae-a4658a435cfb.png" width="500px" /><br/>
 - 注意，這裡"不會"再確認，按了就刪了
 - 最後再到本地將電腦上的檔案刪除就好
