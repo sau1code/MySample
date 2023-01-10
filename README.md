@@ -9,5 +9,6 @@
 
 **3. 如何刪除 Github 上的子目錄或文件**<br/>
 
-<img src="https://user-images.githubusercontent.com/104376299/211460367-eb086fc7-188a-40d4-a6f0-d9f746c046ec.png" width="500px" />
-<img src="https://user-images.githubusercontent.com/104376299/211460368-3525caad-bba5-4454-bfae-a4658a435cfb.png" width="500px" />
+<img src="https://user-images.githubusercontent.com/104376299/211460367-eb086fc7-188a-40d4-a6f0-d9f746c046ec.png" width="500px" /><br/><br/>
+拉到最下面<br/>
+<img src="https://user-images.githubusercontent.com/104376299/211460368-3525caad-bba5-4454-bfae-a4658a435cfb.png" width="500px" /><br/>
