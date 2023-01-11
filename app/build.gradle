@@ -3,11 +3,11 @@ plugins {
 }
 
 android {
-    namespace 'com.sample.otp'
+    namespace 'com.sample.otptest'
     compileSdk 32
 
     defaultConfig {
-        applicationId "com.sample.otp"
+        applicationId "com.sample.otptest"
         minSdk 26
         targetSdk 32
         versionCode 1
