@@ -7,6 +7,7 @@
 ### 2. 如何從 Github clone 子目錄或文件<br/>
 <img src="https://user-images.githubusercontent.com/104376299/211455593-0d9823cd-e9a8-4dd4-83b4-c840283196c2.png" width="500px" /><br/>
 - 參考: https://zhuanlan.zhihu.com/p/54581830<br/>
+- 或直接使用 <a href="https://minhaskamal.github.io/DownGit">DownGit</a> 第三方下載: <a href="https://medium.com/%E5%BD%BC%E5%BE%97%E6%BD%98%E7%9A%84-swift-ios-app-%E9%96%8B%E7%99%BC%E5%95%8F%E9%A1%8C%E8%A7%A3%E7%AD%94%E9%9B%86/%E4%B8%8B%E8%BC%89-github-repository-%E4%B8%8B%E7%9A%84%E8%B3%87%E6%96%99%E5%A4%BE-671808254d2a">教學</a>
 <br/>
 
 ### 3. 如何刪除 Github 上的子目錄或文件<br/>
