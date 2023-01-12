@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="bottom_tab_title_active">
+        <item name="android:textSize">14dp</item>
+    </style>
+
+    <style name="bottom_tab_title_inactive">
+        <item name="android:textSize">12dp</item>
+    </style>
+
+</resources>

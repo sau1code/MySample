@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/orders"
+        android:title="訂單"
+        android:icon="@drawable/ic_baseline_library_books_24" />
+    <item
+        android:id="@+id/user_profile"
+        android:title="我的"
+        android:icon="@drawable/ic_baseline_person_24" />
+    <item
+        android:id="@+id/announcement"
+        android:title="公告"
+        android:icon="@drawable/ic_baseline_announcement_24" />
+    <item
+        android:id="@+id/chat_bot"
+        android:title="客服"
+        android:icon="@drawable/ic_baseline_contact_support_24" />
+
+</menu>
