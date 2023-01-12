@@ -47,6 +47,8 @@ class MyHomePage extends StatefulWidget {
   State<MyHomePage> createState() => _MyHomePageState();
 }
 
+int _selectedIndex = 0;
+
 class _MyHomePageState extends State<MyHomePage> {
   int _counter = 0;
 
@@ -105,11 +107,49 @@ class _MyHomePageState extends State<MyHomePage> {
           ],
         ),
       ),
+      backgroundColor: myColor(),
+
       floatingActionButton: FloatingActionButton(
         onPressed: _incrementCounter,
         tooltip: 'Increment',
         child: const Icon(Icons.add),
-      ), // This trailing comma makes auto-formatting nicer for build methods.
+      ),
+      // This trailing comma makes auto-formatting nicer for build methods.
+      bottomNavigationBar: BottomNavigationBar(
+        items: const [
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: "Home",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.mail_rounded),
+            label: "Inbox",
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.settings),
+            label: "Setting",
+          ),
+        ],
+        currentIndex: _selectedIndex,
+        onTap: (value) {
+          setState(() {
+            _selectedIndex = value;
+          });
+        },
+      ),
     );
+  }
+
+  Color myColor() {
+    switch (_selectedIndex) {
+      case 0:
+        return Colors.white;
+      case 1:
+        return Colors.blue;
+      case 2:
+        return Colors.yellow;
+      default:
+        return Colors.white;
+    }
   }
 }
