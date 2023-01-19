@@ -17,4 +17,5 @@
 - 拉到最下面，選擇 [Commit changes] 鍵<br/>
 <img src="https://user-images.githubusercontent.com/104376299/211460368-3525caad-bba5-4454-bfae-a4658a435cfb.png" width="500px" /><br/>
 - 注意，這裡"不會"再確認，按了就刪了
-- 最後再到本地將電腦上的檔案刪除就好
+- 最後再到 Git Bash 輸入 git rm -r [專案名]
+- 最後將電腦上的檔案刪除就好
